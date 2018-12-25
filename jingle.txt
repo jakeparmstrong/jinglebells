@@ -1,0 +1,330 @@
+use_bpm 180
+
+use_osc "localhost", 4559
+
+define :verse do
+  play :d4
+  osc "4/d"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  play :g4
+  osc "4/g"
+  sleep 1
+  
+  play :d4
+  osc "4/d"
+  sleep 3
+  play :d4
+  osc "4/d"
+  sleep 0.5
+  play :d4
+  osc "4/d"
+  sleep 0.5
+  
+  play :d4
+  osc "4/d"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  play :g4
+  osc "4/g"
+  sleep 1
+  
+  play :e4
+  osc "4/e"
+  sleep 4
+  
+  play :e4
+  osc "4/e"
+  sleep 1
+  play :c5
+  osc "5/c"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  
+  play :fs4
+  osc "4/fs"
+  sleep 4
+  
+  play :d5
+  osc "5/d"
+  sleep 1
+  play :d5
+  osc "5/d"
+  sleep 1
+  play :c5
+  osc "5/c"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  
+  play :b4
+  osc "4/b"
+  sleep 4
+  
+  play :d4
+  osc "4/d"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  play :g4
+  osc "4/g"
+  sleep 1
+  
+  play :d4
+  osc "4/d"
+  sleep 3
+  play :d4
+  osc "4/d"
+  sleep 0.5
+  play :d4
+  osc "4/d"
+  sleep 0.5
+  
+  play :d4
+  osc "4/d"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  play :g4
+  osc "4/g"
+  sleep 1
+  
+  play :e4
+  osc "4/e"
+  sleep 4
+  
+  play :e4
+  osc "4/e"
+  sleep 1
+  play :c5
+  osc "5/c"
+  sleep 1
+  play :b4
+  osc "4/b"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  
+  play :fs4
+  osc "4/fs"
+  sleep 4
+  
+  play :d5
+  osc "5/d"
+  sleep 1
+  play :d5
+  osc "5/d"
+  sleep 1
+  play :c5
+  osc "5/c"
+  sleep 1
+  play :a4
+  osc "4/a"
+  sleep 1
+  
+  play :g4
+  osc "4/g"
+  sleep 2
+  play :d5
+  osc "5/d"
+  sleep 2
+end
+
+
+define :chorus do
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :d5
+  osc "5"
+  sleep 1
+  play :g4
+  osc "1"
+  sleep 1.5
+  play :a4
+  osc "2"
+  sleep 0.5
+  
+  play :b4
+  osc "3"
+  sleep 4
+  
+  play :c5
+  osc "4"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 1.5
+  play :c5
+  osc "4"
+  sleep 0.5
+  
+  play :c5
+  osc "4"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :a4
+  osc "2"
+  sleep 1
+  play :a4
+  osc "2"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  
+  play :a4
+  osc "2"
+  sleep 2
+  play :d5
+  osc "5"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 2
+  
+  play :b4
+  osc "3"
+  sleep 1
+  play :d5
+  osc "5"
+  sleep 1
+  play :g4
+  osc "1"
+  sleep 1.5
+  play :a4
+  osc "2"
+  sleep 0.5
+  
+  play :b4
+  osc "3"
+  sleep 4
+  
+  
+  play :c5
+  osc "4"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 0.5
+  play :c5
+  osc "4"
+  sleep 0.5
+  
+  play :c5
+  osc "4"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 1
+  play :b4
+  osc "3"
+  sleep 0.5
+  play :b4
+  osc "3"
+  sleep 0.5
+  
+  play :d5
+  osc "5"
+  sleep 1
+  play :d5
+  osc "5"
+  sleep 1
+  play :c5
+  osc "4"
+  sleep 1
+  play :a4
+  osc "2"
+  sleep 1
+  
+  play :g4
+  osc "1"
+  sleep 4
+end
+
+verse
+chorus
+verse
