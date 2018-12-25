@@ -26,8 +26,10 @@ def _PrintOscMessages(ip, port):
     print("Listening for UDP packets on {0}:{1} ...".format(ip, port))
     while True:
         data, _ = sock.recvfrom(1024)
-        print(data)
-
+        stringed_data = str(data)
+        octave = stringed_data[2]
+        pitch = stringed_data[4]
+        print("Pitch:"+pitch+" | Octave: "+octave)  #debug
 
 if __name__ == "__main__":
     main()
