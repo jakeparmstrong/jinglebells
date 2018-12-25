@@ -158,40 +158,40 @@ end
 
 define :chorus do
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :d5
   osc "5/d"
   sleep 1
   play :g4
-  osc "4\g"
+  osc "4/g"
   sleep 1.5
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 0.5
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 4
   
   play :c5
@@ -211,67 +211,67 @@ define :chorus do
   osc "5/c"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 1
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 2
   play :d5
   osc "5/d"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 2
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :d5
   osc "5/d"
   sleep 1
   play :g4
-  osc "4\g"
+  osc "4/g"
   sleep 1.5
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 0.5
   
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 4
   
   
@@ -295,16 +295,16 @@ define :chorus do
   osc "5/c"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 1
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 0.5
   play :b4
-  osc "4\b"
+  osc "4/b"
   sleep 0.5
   
   play :d5
@@ -317,11 +317,11 @@ define :chorus do
   osc "5/c"
   sleep 1
   play :a4
-  osc "4\a"
+  osc "4/a"
   sleep 1
   
   play :g4
-  osc "4\g"
+  osc "4/g"
   sleep 4
 end
 
