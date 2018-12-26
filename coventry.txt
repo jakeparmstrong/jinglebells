@@ -1,0 +1,102 @@
+# Coventry Carol
+# Transcription: Jacob Armstrong
+# December 25, 2018
+
+use_bpm 100
+
+use_osc "localhost", 4585
+play :g4
+osc "4/g"
+sleep 2
+play :g4
+osc "4/g"
+sleep 1
+play :fs4
+osc "4/fs"
+sleep 1
+
+play :g4
+osc "4/g"
+sleep 2
+play :bb4
+osc "4/bb"
+sleep 1
+
+play :a4
+osc "4/a"
+sleep 1.5
+play :a4
+osc "4/a"
+sleep 0.5
+play :g4
+osc "4/g"
+sleep 0.5
+play :g4
+osc "4/g"
+sleep 0.5
+
+play :fs4
+osc "4/fs"
+sleep 3
+
+play :g4
+osc "4/g"
+sleep 1
+play :a4
+osc "4/a"
+sleep 1
+play :bb4
+osc "4/bb"
+sleep 1
+
+play :c5
+osc "5/c"
+sleep 1
+play :a4
+osc "4/a"
+sleep 1
+
+play :g4
+osc "4/g"
+sleep 2
+play :d5
+osc "5/d"
+sleep 1
+
+play :c5
+osc "5/c"
+sleep 1.5
+play :c5
+osc "5/c"
+sleep 0.5
+play :bb4
+osc "4/b"
+sleep 0.5
+play :bb4
+osc "4/b"
+sleep 0.5
+
+play :a4
+osc "4/a"
+sleep 3
+
+play :g4
+osc "4/g"
+sleep 1
+play :fs4
+osc "4/fs"
+sleep 1
+play :g4
+osc "4/g"
+sleep 1
+
+play :c5
+osc "5/c"
+sleep 1
+play :a4
+osc "4/a"
+sleep 1
+
+play :b4
+osc "4/b"
+sleep 6
