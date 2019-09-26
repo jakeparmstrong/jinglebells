@@ -58,7 +58,6 @@ def _PrintOscMessages(ip, port):
         stringed_data = str(data)
         octave = stringed_data[2]
         pitch = stringed_data[4]
-
         pin = switcher(pitch)
         GPIO.output(pin, True)
         time.sleep(0.15)
