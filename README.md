@@ -20,7 +20,7 @@ I used:
 
 ## Procedure
 
-1. Start OSCtoLights.py (I ran it on Python 3.x). This script assigns LEDs to each GPIO pin used, listens on port 3585 for incoming messages, and parses those messages (in a very inelegant manner) to visualize one note at a time on te LED set.
+1. Start OSCtoLights.py (I ran it on Python 3.x). This script assigns LEDs to each GPIO pin used, listens on port 3585 for incoming messages, and parses those message to visualize one note at a time on te LED set.  The code currently only looks at the pitch name being sent, and not the octave.
 2. Run your Sonic Pi tune on the same Raspberry Pi. Make sure that you set the outbound OSC messages to use the same port (here, 3585).
 
 Note: if you are writing your own sonic pi tunes, make sure to format the OSC messages as  "octave/pitch". See sample code.
