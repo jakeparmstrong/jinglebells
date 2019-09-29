@@ -2,6 +2,7 @@ import argparse
 import socket
 import RPi.GPIO as GPIO
 import time
+import re
 
 #GPIO Pin constants
 C = 8
@@ -55,9 +56,16 @@ def _PrintOscMessages(ip, port):
     
     while True:
         data, _ = sock.recvfrom(1024)
-        stringed_data = str(data)
-        octave = stringed_data[2]
-        pitch = stringed_data[4]
+        
+        #try:
+        #  octave = re.search('(.+?)/', stringed_data).group(1)
+        #except AttributeError:
+        #  found = ''
+        
+        try:
+          pitch = re.search('/(.+?)', str(data)).group(1)
+        except AttributeError:
+          found = ''
         pin = switcher(pitch)
         GPIO.output(pin, True)
         time.sleep(0.15)
