@@ -1,5 +1,5 @@
 # lightshow
-This project visualizes songs with LEDs using a Raspberry Pi. I wanted to build something fun to show my niece over the winter holidays, so the whole thing has a bit of an xmas theme to it! [Click here to see a performance of Jingle Bells.](https://www.youtube.com/watch?v=Q6xnmALbX_Y)
+This project visualizes songs with LEDs using a Raspberry Pi. I wanted to build something fun to show my young niece over the winter holidays, so the first song that I wrote in this format was Jingle Bells; [you can click here to see the song being performed.](https://www.youtube.com/watch?v=Q6xnmALbX_Y)
 
 Each LED represents a different note in a diatonic scale, with the leftmost LED representing "do", and the rightmost LED representing "ti".
 
